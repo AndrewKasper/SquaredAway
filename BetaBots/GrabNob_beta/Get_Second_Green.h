@@ -13,13 +13,14 @@ void secondGreen() {
 	backwardMove(250,30);
   setMotorBrakeMode(FrontClaw, motorHold);
   moveMotorTarget(FrontClaw, 90, 100);
-	turnRightDist(95,50);  //orginally 135
+	turnRightDist(94,50);  //orginally 135
 //	forwardMove(230,20);   //originally 255
-	forwardMove(80,20);   //Work on this distance  --- start
-  sleep(500);
+	forwardMove(70,20);   //Work on this distance  --- start
+  sleep(100);
 //	turnLeftDist(20,50);
-  moveMotorTarget(FrontClaw,-120,-30);
-  sleep(1000);
+  moveMotorTarget(FrontClaw,-125,-30);
+  //sleep(1000);
+  sleep(400);
 	forwardMove(60,50);
   moveMotorTarget(FrontClaw,25,30);
 	backwardMove(200,50);  //working on this  -- currently 60
